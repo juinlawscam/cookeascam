@@ -60,6 +60,7 @@
             align-items: center;
             text-align: center;
             margin-top: 50px;
+            padding: 0 20px;
         }
 
         /* 🔹 상세 이미지 */
@@ -82,8 +83,16 @@
         .description {
             font-size: 1.2rem;
             color: #444;
+            text-align: left;
+            max-width: 800px;
             margin-top: 30px;
             margin-bottom: 60px;
+            line-height: 1.8;
+        }
+
+        .description span {
+            color: red;
+            font-weight: bold;
         }
 
         /* 🔹 상담신청 버튼 스타일 */
@@ -151,6 +160,9 @@
             .hero-left p {
                 font-size: 2rem;
             }
+            .description {
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -181,14 +193,21 @@
 
         <!-- ✅ 본문 -->
         <p class="description">
-            [투자주의] 둘세샵 DulceShop 사칭ㅣ법무법인 주인 사기 법률 대응 센터에서 피해자 법률 대응 을 알아보겠습니다.<br><br>
+            <strong>[투자주의] 둘세샵 DulceShop 사칭</strong> 피해자 법률 대응을 알아보겠습니다.<br><br>
             
-            <span style="color: red; font-weight: bold;">환불업체, 수사관, 회복센터, 심부름센터, 금융센터, 탐정</span> 등을 자칭하는 업체들이 난립하고 있습니다.<br><br>
+            <span>환불업체, 수사관, 회복센터, 심부름센터, 금융센터, 탐정</span> 등을 자칭하는 업체들이 난립하고 있습니다.<br><br>
             
             이들은 사기꾼과 다를 바 없는 업체입니다.<br>
-            <span style="color: red; font-weight: bold;">이들이 제공한다는 자료는 민.형사 상 사용이 불가합니다.</span><br><br>
+            <span>이들이 제공한다는 자료는 민·형사상 사용이 불가합니다.</span><br><br>
 
-            ...
+            그럼에도 비용 마련이 어렵거나 공짜라는 마음에 사건을 맡기고 나니,  
+            <span>진행비, 해킹·추적비, 작업비 등</span> 각종 명목으로 300~500만원의 비용을 받아가고 있는 것이 현실입니다.<br><br>
+        
+            저희 법무법인을 선임하지 않으셔도 괜찮습니다.  
+            <span>다만, 이런 곳은 가지 않으셨으면 합니다.</span><br><br>
+            
+            후불제라며 돈을 요구하는 2차 사기 피해는 없었으면 합니다.<br>
+            <span>만약, 지금 그들이 금전 요구를 하고 있다면 즉시 멈춰주시기 바랍니다.</span>
         </p>
     </div>
 
@@ -202,16 +221,8 @@
             <div class="footer-info">
                 <p>법무법인 주인 | 대표번호 02-588-7890 | 서울특별시 서초구 서초중앙로 118</p>
             </div>
-            <div class="footer-copyright">
-                Copyrightⓒ 2025 JUINLAW, All Rights Reserved.
-            </div>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
-
-
